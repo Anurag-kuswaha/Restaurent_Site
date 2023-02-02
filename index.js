@@ -1,7 +1,7 @@
 const express = require("express");
 const hbs = require('express-handlebars');
 const app = express();
-const port = process.env.PORT || 5010;
+const port = process.env.PORT || 3000;
 const path = require("path");
 var menu = require("./routes/menu");
 
